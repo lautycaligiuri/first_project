@@ -10,7 +10,7 @@ supabase: Client = create_client(url, key)
 # --- INTERFAZ ---
 st.set_page_config(page_title="Experimento Ético", page_icon="🚆")
 
-st.title("🚆 El Dilema del Tranvía Exponencial")
+st.title("🚆El Dilema del Tranvía Exponencial.")
 st.write("¿Qué decisión tomarías si cada omisión duplica el problema?")
 
 with st.form("form_encuesta"):
